@@ -2,14 +2,66 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 5%
+    right: 20%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 61%
+    right: 90%
+  &-3
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 1%
+    right: 70%
+  &-4
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 75%
+    right: 95%
+  &-5
+    animation: float2 2.8s linear infinite alternate
+    position: absolute
+    top: 41%
+    right: 8%
 
+@media (min-width: 1401px)
+  @keyframes float2
+    0%
+      translate: -5% 15%
+    25%
+      translate: -27% 25%
+    50%
+      translate: -55% 35%
+    75%
+      translate: -100% 70%
+    100%
+      translate: -145% 100%
+
+@media (max-width: 1400px)
+  @keyframes float2
+    0%
+      translate: -5% 15%
+    25%
+      translate: -35% 25%
+    50%
+      translate: -70% 35%
+    75%
+      translate: -100% 55%
+    100%
+      translate: -145% 70%
+@media (max-width: 1400px)
+  @keyframes float2
+    0%
+      translate: -5% 15%
+    25%
+      translate: -35% 25%
+    50%
+      translate: -70% 35%
+    75%
+      translate: -100% 45%
+    100%
+      translate: -135% 57%
 
 @keyframes float1
   0%
@@ -17,3 +69,545 @@
 
   100%
     transform: translateY(0px)
+
+// banner interno
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo-banner-interno.png") !important
+
+.banner-interno__titulo__icono
+  background-color: #12263F !important
+
+.banner-interno__titulo h2
+  color: #12263F !important
+
+//- fondos
+.fondo
+  &-1
+    background-image: url('../assets/curso/tema1/fondo1.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: top
+  &-2
+    background-color: #40327B
+  &-3
+    background-image: url('../assets/curso/tema1/fondo2.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: top
+  &-4
+    background-color: #AB9DF1
+  &-5
+    background-image: url('../assets/curso/tema1/fondo3.png')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: center
+  &-6
+    background-image: url('../assets/curso/tema1/fondo4.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: center
+  &-7
+    background-color: #DAF1F5
+  &-8
+    background-image: url('../assets/curso/tema1/fondo5.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: center
+  &-gris
+    background-color: #E6E1FB !important
+  &-blanco
+    background-color: #fff
+  &-
+    background-image: url('../assets/curso/tema1/fondo6.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: top
+  &-10
+    background-color: #36257B
+  &-11
+    background-image: url('../assets/curso/tema1/fondo7.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: top
+  &-12
+    background-color: #E8E8E8
+  &-13
+    background-image: url('../assets/curso/tema1/fondo8.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: center
+  &-14
+    background-image: url('../assets/curso/tema1/fondo9.png')
+    background-size: 100% cover
+    background-repeat: no-repeat
+    background-position: top left
+  &-15
+    background-image: url('../assets/curso/tema1/fondo10.png')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: center
+  &-16
+    background-image: url('../assets/curso/tema1/fondo11.png')
+    background-size: 100% auto
+    background-repeat: no-repeat
+    background-position: center
+  &-17
+    background-color: #E3F5F8
+  &-18
+    background-color: #BEE7ED
+    border-top-right-radius: 50px
+    border-bottom-right-radius: 50px
+  &-19
+    background-image: url('../assets/curso/tema1/fondo12.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: top center
+    @media( max-width: 576px )
+      background-size: 100% 100%
+  &-20
+    background-image: url('../assets/curso/tema1/fondo13.jpg')
+    background-size: 100% auto
+    background-repeat: no-repeat
+    background-position: center
+    @media( max-width: 991px )
+      background-size: 100% 100%
+  &-21
+    background-image: url('../assets/curso/tema1/fondo14.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+  &-22
+    background-color: #D5CEF8
+  &-23
+    background-color: #E0FEEC
+  &-24
+    background-image: url('../assets/curso/tema1/fondo15.png')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: top left
+    @media( max-width: 576px )
+      background-position: center
+    border-bottom-right-radius: 30px
+    border-top-right-radius: 30px
+  &-25
+    background-color: #FCEAEA
+    border: 3px solid #E53030
+  &-26
+    background-color: #EFF3FE
+    border: 3px solid #0933D4
+  &-27
+    background-image: url('../assets/curso/tema1/fondo16.png')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: top
+  &-28
+    background-image: url('../assets/curso/tema1/fondo17.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: top
+  &-29
+    background-color: #C4BAF5
+  &-30
+    background-image: url('../assets/curso/tema2/fondo1.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: top
+  &-31
+    background-image: url('../assets/curso/tema2/fondo2.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: center
+  &-32
+    background-image: url('../assets/curso/tema2/fondo3.png')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: bottom left
+  &-33
+    background-image: url('../assets/curso/tema2/fondo4.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: center
+  &-34
+    background-image: url('../assets/curso/tema2/fondo5.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: center
+  &-35
+    background-image: url('../assets/curso/tema2/fondo6.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: center
+  &-36
+    background-image: url('../assets/curso/tema2/fondo7.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: center
+  &-37
+    background-image: url('../assets/curso/tema2/fondo8.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: center
+  &-38
+    background-image: url('../assets/curso/tema2/fondo9.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: center
+  &-39
+    background-image: url('../assets/curso/tema2/fondo10.png')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: bottom left
+  &-40
+    background-image: url('../assets/curso/tema2/fondo11.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: center
+  &-41
+    background-color: #25C766
+    border-radius: 30px
+  &-42
+    background-color: #E0FEEC
+  &-43
+    background-color: #45BBCC
+    border-radius: 30px
+  &-44
+    background-color: #BEE7ED
+
+//- mostrar y no mostrar
+.mostrar-movil
+  @media( min-width: 992px )
+    display: none
+
+.mostrar-lg
+  @media( max-width: 991px )
+    display: none
+
+.redondearpuntas
+  border-radius: 20px
+
+.sinredondeo
+  border-radius: 0
+
+.sombras
+  box-shadow: 3px 3px 3px #fafafabe
+
+.borde
+  border: 3px solid #40327B
+
+.bordeverde
+  border: 3px solid #29707A
+
+// tarjetas avatar
+.tarjeta-avatar-b .tarjeta
+  width: 100%
+  margin-left: -10%
+  padding-left: 10%
+  height: 70px
+  margin-top: auto
+  margin-bottom: auto
+  border-top-right-radius: 35px
+  border-bottom-right-radius: 35px
+
+.tarjeta-avatar-b__img
+  min-width: 30%
+  max-width: 30%
+
+// correr a la izquierda
+.correr-izq
+  @media( min-width: 990px )
+    margin-left: -6.5em
+
+.subir
+  margin-top: -75px
+  @media( max-width: 1200px )
+    margin-top: -60px
+  @media( max-width: 769px )
+    margin-top: -65px
+  @media( max-width: 576px )
+    margin-top: -80px
+  @media( max-width: 450px )
+    margin-top: -65px
+  @media( max-width: 350px )
+    margin-top: -55px
+
+.subir1
+  margin-top: -12px
+  @media( max-width: 576px )
+    margin-top: -8px
+  @media( max-width: 350px )
+    margin-top: -6px
+
+.padd
+  @media( max-width: 576px )
+    padding: 1em
+  @media( max-width: 450px )
+    padding: 0.5em
+  @media( max-width: 350px )
+    padding: 0
+
+.correr-izq1
+  @media( max-width: 991px )
+    margin-left: -6.5em
+
+.correr-izq2
+  @media( max-width: 991px )
+    margin-left: -5.5em
+
+
+//- por encima, sobre
+.sobre
+  z-index: 999
+
+// margenes y padding
+.padding-y
+  @media( max-width: 576px )
+    padding-top: 3em !important
+    padding-bottom: 1em !important
+  @media( max-width: 991px ) and (min-width: 577px)
+    padding-top: 2em !important
+    padding-bottom: 2em !important
+  @media( min-width: 990px )
+    padding-top: 4em !important
+    padding-bottom: 3em !important
+    padding-left: 5em !important
+  @media( min-width: 1200px )
+    padding-top: 6em !important
+    padding-bottom: 5em !important
+  @media( min-width: 1400px )
+    padding-top: 7em !important
+    padding-bottom: 7em !important
+
+.padding1-y
+  @media( min-width: 416px ) and ( max-width: 576px )
+    padding-top: 2em !important
+    padding-bottom: 2em !important
+
+.padding2-y
+  @media( max-width: 991px )
+    padding-top: 3.5em
+    padding-bottom: 3.5em
+    padding-left: 2.8em
+    margin-top: 4em
+  @media( max-width: 768px )
+    padding-top: 2em
+    padding-bottom: 2em
+    padding-left: 2.8em
+    margin-top: 4em
+  @media( max-width: 576px )
+    padding-top: 2em
+    padding-bottom: 2em
+    padding-left: 2.8em
+    margin-top: 2.5em
+  @media( max-width: 425px )
+    padding-top: 1em
+    padding-bottom: 1em
+    padding-left: 3em
+    margin-top: 3em
+  @media( max-width: 375px )
+    padding-top: 0.1em
+    padding-bottom: 0.1em
+    padding-left: 2.5em
+    margin-top: 1em
+
+.padding3-y
+  @media( max-width: 991px )
+    padding-top: 3.5em
+    padding-bottom: 3.5em
+    padding-left: 2.8em
+    margin-top: 4em
+  @media( max-width: 768px )
+    padding-top: 2em
+    padding-bottom: 2em
+    padding-left: 2.8em
+    margin-top: 4em
+  @media( max-width: 576px )
+    padding-top: 2em
+    padding-bottom: 2em
+    padding-left: 2.8em
+    margin-top: 2.5em
+  @media( max-width: 425px )
+    padding-top: 1em
+    padding-bottom: 1em
+    padding-left: 3em
+    margin-top: 3em
+  @media( max-width: 375px )
+    padding-top: 1em
+    padding-bottom: 1em
+    padding-left: 2.5em
+    margin-top: 1em
+
+.padding4-y
+  @media( max-width: 576px )
+    padding-top: 4em !important
+    padding-bottom: 2em !important
+  @media( max-width: 991px ) and (min-width: 577px)
+    padding-top: 2em !important
+    padding-bottom: 1em !important
+  @media( min-width: 990px )
+    padding-top: 3em !important
+    padding-bottom: 1em !important
+    padding-left: 5.5em !important
+  @media( min-width: 1200px )
+    padding-top: 4em !important
+    padding-bottom: 3em !important
+  @media( min-width: 1400px )
+    padding-top: 5em !important
+    padding-bottom: 5em !important
+
+.linea-tiempo-d__item--selected .tarjeta--gris
+  background-color: #E6E1FB !important
+
+//-slider A
+.slyder-a__bullets__item--active
+  background-color: #40327B !important
+  border-color: #40327B
+  opacity: 1
+
+.slyder-a__bullets__item
+  background-color: rgba(64, 50, 123, .35)
+  border-color: rgba(64, 50, 123, .35)
+  margin: 0 5px
+
+// acordeon
+//-cambiar color a tarjeta activa
+.tarjeta.tarjeta--gris.acordion__activo
+  background-color: #DAF1F5 !important
+
+// fa.check color
+.fa-check-circle:before
+  content: "\f058"
+  color: #342287
+
+.sizeimg
+  width: 90%
+  height: 90%
+  @media( max-width: 576px )
+    width: 20%
+  @media( max-width: 450px )
+    width: 30%
+  @media( max-width: 380px )
+    width: 50%
+  @media( max-width: 330px )
+    width: 60%
+//- cajón
+.cajon-b.otrocolor:before
+  background-color: #DAF1F5
+
+.cajon-b:before
+  width: 30%
+
+//- Fuentes
+.fuente14px
+  font-size: 14px
+
+//slider
+.fa-chevron-right:before //-cambio de icono cambiando el código de la propiedad content
+  content: "\f138"
+  color: #636363
+
+.fa-chevron-left:before
+  content: "\f137"
+  color: #636363
+
+.ajustesize
+  @media( min-width: 1400px )
+    height: 400px
+  @media( max-width: 1400px )
+    height: 420px
+  @media( max-width: 576px )
+    width: 90%
+    height: 300px
+  @media( max-width: 991px )
+    height: 450px
+  @media( max-width: 425px )
+    height: 390px
+  @media( max-width: 360px )
+    height: 380px
+  @media( max-width: 330px )
+    height: 450px
+
+.ajustesize1
+  @media( min-width: 1400px )
+    height: 350px
+  @media( max-width: 1400px )
+    height: 320px
+  @media( max-width: 991px )
+    width: 90%
+    height: 350px
+  @media( max-width: 410px )
+    height: 350px
+  @media( max-width: 360px )
+    height: 380px
+
+//-separar columnas
+.separar
+  @media( min-width: 991px )
+    width: 49%
+
+.separar1
+  @media( min-width: 991px )
+    width: 24%
+  @media( max-width: 991px )
+    width: 49%
+
+//imagen infográfica
+.img-infografica.color-acento-botones .img-infografica__item__numero
+  color: #fff
+
+.img-infografica.color-acento-botones .img-infografica__item__dot:after
+  background-color: #25C766
+  width: 200%
+  height: 200%
+  top: -9px
+  left: -7px
+
+//- tabla
+.col-ancho
+  width: 30%
+
+.lista-ul
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.tabs-b__content-item
+  background-color: rgba(89,58,226, .1)
+
+.tabs-b.color-primario .tabs-b__tab--active
+  border-top-color: #583AE2 !important
+  background-color: white
+
+.tabs-b__tab
+  background-color: rgba(89, 58, 226, .1)
+  border-right: 2px solid #583AE2
+  border-bottom: 2px solid #583AE2
+
+.btn-h3
+  position: relative
+  display: inline-block
+  background: #40327B
+  border-start-end-radius: 50px 50px
+  border-end-end-radius: 50px 50px
+  padding: 8px 45px 8px 50px
+  span
+    color: #fff
+  &::before
+    content: ""
+    position: absolute
+    background: url(../assets/curso/bg/bg-btn-h3.svg)
+    width: 40px
+    height: 38px
+    bottom: 0px
+    left: 0px
+
+.slyder-f .slyder-f__main .horizontal-scroll__wrapper
+  padding-top: 0px !important
+
+.slyder-f__btn i
+  font-size: 3rem
+
+.tabla-a table
+  min-width: 350px

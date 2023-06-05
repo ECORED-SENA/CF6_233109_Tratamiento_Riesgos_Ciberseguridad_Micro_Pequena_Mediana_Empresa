@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="67" height="72" viewBox="0 0 67 72">
+  <g id="Grupo_948235" data-name="Grupo 948235" transform="translate(-828 -8248)">
+    <rect id="Rectángulo_34186" data-name="Rectángulo 34186" width="67" height="72" rx="5" transform="translate(828 8248)" fill="#fff"/>
+    <g id="Grupo_948255" data-name="Grupo 948255" transform="translate(7179.77 8014.439)">
+      <g id="Grupo_948255-2" data-name="Grupo 948255" transform="translate(-6346.125 241)">
+        <path id="Trazado_633130" data-name="Trazado 633130" d="M55.057,9.787h0c-.01-.027-.021-.051-.033-.076a.663.663,0,0,0-.034-.078L49.478.446A.919.919,0,0,0,48.691,0H6.431a.919.919,0,0,0-.787.446L.131,9.632A.663.663,0,0,0,.1,9.711c-.012.025-.023.05-.033.076A.93.93,0,0,0,0,10.106V54.2a.919.919,0,0,0,.919.919H54.2a.919.919,0,0,0,.919-.919v-44.1A.93.93,0,0,0,55.057,9.787ZM48.691,2.7l3.89,6.482h-3.89ZM8.268,1.837H46.853v7.35H8.268ZM6.431,2.7V9.187H2.541ZM53.284,53.284H1.837V11.024H53.284Z"/>
+      </g>
+      <g id="Grupo_948263" data-name="Grupo 948263" transform="translate(-6344.548 264.239)">
+        <path id="Trazado_633131" data-name="Trazado 633131" d="M-6224.888,292.514v2.77l3.61-1.181Z" transform="translate(6224.888 -285.575)"/>
+        <g id="Grupo_948256" data-name="Grupo 948256" transform="translate(3.639 9.207) rotate(-119)">
+          <path id="Trazado_122096" data-name="Trazado 122096" d="M.567,12.253H0V0H.567Z" transform="translate(0.504 0)"/>
+          <path id="Polígono_7" data-name="Polígono 7" d="M.788,0l.788,1.418H0Z" transform="translate(1.576 13.079) rotate(180)"/>
+        </g>
+        <g id="Grupo_948258" data-name="Grupo 948258" transform="matrix(0.358, -0.934, 0.934, 0.358, 17.672, 1.875)">
+          <path id="Trazado_122096-2" data-name="Trazado 122096" d="M.567,9.764H0V0H.567Z" transform="translate(0.504 0)"/>
+          <path id="Polígono_7-2" data-name="Polígono 7" d="M.788,0l.788,1.418H0Z" transform="translate(1.576 10.59) rotate(180)"/>
+        </g>
+        <g id="Grupo_948260" data-name="Grupo 948260" transform="translate(30.24 5.894) rotate(-48)">
+          <path id="Trazado_122096-3" data-name="Trazado 122096" d="M.567,8.105H0V0H.567Z" transform="translate(0.504 0)"/>
+          <path id="Polígono_7-3" data-name="Polígono 7" d="M.788,0l.788,1.418H0Z" transform="translate(1.576 8.931) rotate(180)"/>
+        </g>
+        <g id="Grupo_948261" data-name="Grupo 948261" transform="translate(40.208 13.716) rotate(-122)">
+          <path id="Trazado_122096-4" data-name="Trazado 122096" d="M.567,8.105H0V0H.567Z" transform="translate(0.504 0)"/>
+          <path id="Polígono_7-4" data-name="Polígono 7" d="M.788,0l.788,1.418H0Z" transform="translate(1.576 8.931) rotate(180)"/>
+        </g>
+        <g id="Grupo_948262" data-name="Grupo 948262" transform="matrix(-0.682, 0.731, -0.731, -0.682, 36.944, 13.114)">
+          <path id="Trazado_122096-5" data-name="Trazado 122096" d="M.567,8.105H0V0H.567Z" transform="translate(0.504 0)"/>
+          <path id="Polígono_7-5" data-name="Polígono 7" d="M.788,0l.788,1.418H0Z" transform="translate(1.576 8.931) rotate(180)"/>
+        </g>
+        <g id="Grupo_948259" data-name="Grupo 948259" transform="matrix(-0.485, -0.875, 0.875, -0.485, 19.27, 12.463)">
+          <path id="Trazado_122096-6" data-name="Trazado 122096" d="M.567,9.764H0V0H.567Z" transform="translate(0.504 0)"/>
+          <path id="Polígono_7-6" data-name="Polígono 7" d="M.788,0l.788,1.418H0Z" transform="translate(1.576 10.59) rotate(180)"/>
+        </g>
+        <g id="Grupo_948257" data-name="Grupo 948257" transform="matrix(-0.208, 0.978, -0.978, -0.208, 15.678, 10.385)">
+          <path id="Trazado_122096-7" data-name="Trazado 122096" d="M.567,11.928H0V0H.567Z" transform="translate(0.504 0.826)"/>
+          <path id="Polígono_7-7" data-name="Polígono 7" d="M.788,0l.788,1.418H0Z"/>
+        </g>
+        <circle id="Elipse_5382" data-name="Elipse 5382" cx="2.032" cy="2.032" r="2.032" transform="translate(14.388 0.386)" fill="#fff"/>
+        <path id="Elipse_5382_-_Contorno" data-name="Elipse 5382 - Contorno" d="M2.267.567a1.58,1.58,0,0,0-1.7,1.417A1.58,1.58,0,0,0,2.267,3.4a1.58,1.58,0,0,0,1.7-1.417A1.58,1.58,0,0,0,2.267.567m0-.567A2.14,2.14,0,0,1,4.534,1.984,2.14,2.14,0,0,1,2.267,3.968,2.14,2.14,0,0,1,0,1.984,2.14,2.14,0,0,1,2.267,0Z" transform="translate(14.463)"/>
+        <ellipse id="Elipse_5384" data-name="Elipse 5384" cx="2.709" cy="2.032" rx="2.709" ry="2.032" transform="translate(27.489 3.096)" fill="#fff"/>
+        <path id="Elipse_5384_-_Contorno" data-name="Elipse 5384 - Contorno" d="M2.551.567A2.373,2.373,0,0,0,1.1,1.028a1.229,1.229,0,0,0-.528.955,1.229,1.229,0,0,0,.528.955A2.373,2.373,0,0,0,2.551,3.4a2.373,2.373,0,0,0,1.456-.462,1.229,1.229,0,0,0,.528-.955,1.229,1.229,0,0,0-.528-.955A2.373,2.373,0,0,0,2.551.567m0-.567A2.321,2.321,0,0,1,5.1,1.984,2.321,2.321,0,0,1,2.551,3.968,2.321,2.321,0,0,1,0,1.984,2.321,2.321,0,0,1,2.551,0Z" transform="translate(27.63 3.401)"/>
+        <ellipse id="Elipse_5385" data-name="Elipse 5385" cx="2.709" cy="2.032" rx="2.709" ry="2.032" transform="translate(35.358 11.224)" fill="#fff"/>
+        <path id="Elipse_5385_-_Contorno" data-name="Elipse 5385 - Contorno" d="M2.267.567c-.922,0-1.7.519-1.7,1.134s.779,1.134,1.7,1.134,1.7-.519,1.7-1.134S3.189.567,2.267.567m0-.567C3.519,0,4.534.761,4.534,1.7S3.519,3.4,2.267,3.4,0,2.639,0,1.7,1.015,0,2.267,0Z" transform="translate(35.876 11.336)"/>
+        <ellipse id="Elipse_5383" data-name="Elipse 5383" cx="2.709" cy="2.032" rx="2.709" ry="2.032" transform="translate(14.375 9.869)" fill="#fff"/>
+        <path id="Elipse_5383_-_Contorno" data-name="Elipse 5383 - Contorno" d="M2.551.567A2.373,2.373,0,0,0,1.1,1.028a1.229,1.229,0,0,0-.528.955,1.229,1.229,0,0,0,.528.955A2.373,2.373,0,0,0,2.551,3.4a2.373,2.373,0,0,0,1.456-.462,1.229,1.229,0,0,0,.528-.955,1.229,1.229,0,0,0-.528-.955A2.373,2.373,0,0,0,2.551.567m0-.567A2.321,2.321,0,0,1,5.1,1.984,2.321,2.321,0,0,1,2.551,3.968,2.321,2.321,0,0,1,0,1.984,2.321,2.321,0,0,1,2.551,0Z" transform="translate(15.007 9.636)"/>
+        <rect id="Rectángulo_34557" data-name="Rectángulo 34557" width="5.419" height="4.064" transform="translate(47.161 7.16)"/>
+        <path id="Rectángulo_34557_-_Contorno" data-name="Rectángulo 34557 - Contorno" d="M.567.567V3.4h3.4V.567H.567M0,0H4.534V3.968H0Z" transform="translate(47.385 6.802)"/>
+      </g>
+    </g>
+  </g>
+</svg>
