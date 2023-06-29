@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="85" viewBox="0 0 85 85">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_34882" data-name="Rectángulo 34882" width="85" height="85" transform="translate(200 12037)" fill="#2ff980"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_129" data-name="Enmascarar grupo 129" transform="translate(-200 -12037)" clip-path="url(#clip-path)">
+    <g id="Grupo_948884" data-name="Grupo 948884" transform="translate(-671.383 5911.6)">
+      <g id="Grupo_948884-2" data-name="Grupo 948884" transform="translate(882.123 6136.524)">
+        <rect id="Rectángulo_34885" data-name="Rectángulo 34885" width="62.179" height="62.179" rx="4.528" transform="translate(0 0)" fill="#c4baf5"/>
+        <rect id="Rectángulo_34886" data-name="Rectángulo 34886" width="23.029" height="6.138" transform="translate(27.635 11.515)" fill="#583ae2"/>
+        <rect id="Rectángulo_34887" data-name="Rectángulo 34887" width="23.029" height="10.939" transform="translate(27.635 22.31)" fill="#583ae2"/>
+      </g>
+      <path id="restaurar" d="M62.119,0H8.246A8.255,8.255,0,0,0,0,8.246V62.119a8.255,8.255,0,0,0,8.246,8.246H62.119a8.255,8.255,0,0,0,8.246-8.246V8.246A8.255,8.255,0,0,0,62.119,0Zm2.749,62.119a2.752,2.752,0,0,1-2.749,2.749H8.246A2.752,2.752,0,0,1,5.5,62.119V8.246A2.752,2.752,0,0,1,8.246,5.5H62.119a2.752,2.752,0,0,1,2.749,2.749ZM38.481,48.238h5.5V59.37H10.994V32.434a5.5,5.5,0,0,1,5.5-5.5h4.4v5.5h-4.4v4.81h4.4v5.5h-4.4V53.873H38.481ZM53.873,10.994H31.884a5.5,5.5,0,0,0-5.5,5.5V42.741H59.37V16.492A5.5,5.5,0,0,0,53.873,10.994Zm0,5.5V21.3H31.884v-4.81ZM31.884,37.244V26.8H53.873V37.244Zm0,0" transform="translate(878.7 6132)"/>
+    </g>
+  </g>
+</svg>

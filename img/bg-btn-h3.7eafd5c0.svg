@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="38" viewBox="0 0 40 38">
+  <g id="Grupo_950371" data-name="Grupo 950371" transform="translate(-180 -8474)">
+    <path id="hacker-working-in-the-darkness" d="M0,29.662H17.684A18.976,18.976,0,0,1,38,17.3V.084Q36.771,0,35.521,0A36.1,36.1,0,0,0,0,29.662Z" transform="translate(209.662 8474) rotate(90)" fill="#583ae2"/>
+    <g id="Elipse_5496" data-name="Elipse 5496" transform="translate(196 8483)" fill="none" stroke="#2ff980" stroke-width="5">
+      <ellipse cx="12" cy="12.5" rx="12" ry="12.5" stroke="none"/>
+      <ellipse cx="12" cy="12.5" rx="9.5" ry="10" fill="none"/>
+    </g>
+    <circle id="Elipse_5497" data-name="Elipse 5497" cx="2.25" cy="2.25" r="2.25" transform="translate(193.331 8479)" fill="#2ff980"/>
+  </g>
+</svg>
