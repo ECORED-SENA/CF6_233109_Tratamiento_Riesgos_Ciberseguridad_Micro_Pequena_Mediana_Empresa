@@ -16,8 +16,10 @@
       .col-lg-8.col-md-12.mb-4.mb-lg-0(data-aos="fade-down-right")
         p Las normas como la familia ISO 27000 y <em>frameworks</em> técnicos como NIST han incorporado dentro de su metodología las fases que llevan a que las estrategias sean evaluadas de tal manera que permita identificar debilidades y a partir de estas establecer nuevos focos de la estrategia de seguridad, teniendo como premisa, que este ejercicio debe ser permanente y continuo, debido a que las amenazas crecen de manera permanente y cada vez son más complejas.
         p A continuación, se reconocen algunas técnicas que permiten realizar una evaluación de la seguridad digital en las organizaciones y que son el insumo fundamental para determinar la efectividad y eficiencia de la estrategia propuesta:
-      .col-lg-4.col-md-12(data-aos="fade-down-left")
-        img(src='@/assets/curso/tema1/imagen2.png')
+      .col-lg-4.d-none.d-lg-flex(data-aos="fade-down-left")
+        figure
+          img(src="@/assets/curso/tema1/imagen2.png", alt="alt")
+        
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-down-left")
       h2 1.1 Gestión de vulnerabilidades
@@ -36,11 +38,11 @@
       .d-none.d-lg-block
         .row.justify-content-center(data-aos="fade-down-right")
           .col-xxl-10(data-aos="fade-down-right")
-            img(src='@/assets/curso/tema1/figura2.svg', style="max-width: 820px", alt="Activos de información").m-auto
+            img(src='@/assets/curso/tema1/figura2.svg', style="max-width: 820px", alt="Activos de información. La imagen nos presenta los diferentes tipos de activos de información: equipo auxiliar, infraestructura locativa, tecnología, servicios, personas, aplicaciones y datos").m-auto
 
       .d-lg-none
         figure
-          img(src='@/assets/curso/tema1/figura2b.svg', style="max-width: 330px", alt="Activos de información").m-auto
+          img(src='@/assets/curso/tema1/figura2b.svg', style="max-width: 330px", alt="Activos de información. La imagen nos presenta los diferentes tipos de activos de información: equipo auxiliar, infraestructura locativa, tecnología, servicios, personas, aplicaciones y datos").m-auto
 
 
     .row.my-5
@@ -96,7 +98,7 @@
                   i.fas.fa-check-circle
                   span Determinar impacto.
 
-              p En esta etapa se establecen las brechas a la seguridad, identificando el impacto de estas sobre cada uno de los activos de información y cómo puede afectar la organización; en este ejercicio se deben de identificar y priorizar aquellas vulnerabilidades que se consideren críticas
+              p En esta etapa se establecen las brechas a la seguridad, identificando el impacto de estas sobre cada uno de los activos de información y cómo puede afectar la organización; en este ejercicio se deben de identificar y priorizar aquellas vulnerabilidades que se consideren críticas.
 
             .col-xl-2.col-lg-4.col-md-4.col-sm-5.col-6
               figure
@@ -122,12 +124,14 @@
               figure
                 img(src='@/assets/curso/tema1/icono4.svg' alt="")
 
-      .col-lg-4.col-md-6.col-sm-7.col-8(data-aos="fade-down-left")
-        img(src='@/assets/curso/tema1/imagen3.png' alt="")
+      .col-lg-4.d-none.d-lg-flex(data-aos="fade-down-left")
+        figure
+          img(src="@/assets/curso/tema1/imagen3.png", alt="alt")        
 
     .row.justify-content-center
-      .col-lg-4.col-md-6.col-sm-7.col-8.order-lg-first.order-last(data-aos="fade-down-left")
-        img(src='@/assets/curso/tema1/figura7.svg' alt="")
+      .col-lg-4.d-none.d-lg-flex(data-aos="fade-down-left")
+        figure
+          img(src="@/assets/curso/tema1/figura7.svg", alt="alt")        
 
       .col-lg-8.col-md-12.mb-4.mb-lg-0.order-lg-last.order-first(data-aos="fade-down-right")
         LineaTiempoD.cambiocolor
@@ -175,7 +179,7 @@
       h5 Figura 2.
       span Metodologías para la gestión de vulnerabilidades
     .row.align-items-strecth.justify-content-center
-      .col-lg-4.col-md-7.col-sm-8.col-12(data-aos="fade-down-left")
+      .col-lg-4.col-md-7.col-sm-8.col-12.mb-4.mb-lg-0(data-aos="fade-down-left")
         .px-2.h-100
           .row.align-items-center.justify-content-between.fondo-8.py-3
             .col-3
@@ -183,7 +187,7 @@
             .col-9
               h5.mb-0 NIST
               p.mb-0 Guía para realizar evaluaciones de riesgos SP 800-30.
-      .col-lg-4.col-md-7.col-sm-8.col-12(data-aos="fade-down-left")
+      .col-lg-4.col-md-7.col-sm-8.col-12.mb-4.mb-lg-0(data-aos="fade-down-left")
         .px-2.h-100
           .row.align-items-center.justify-content-between.fondo-8.py-3
             .col-3
@@ -191,7 +195,7 @@
             .col-9
               h5.mb-0 OWASP
               p.mb-0 Proyectos de seguridad de aplicaciones <i>web</i> abiertas.
-      .col-lg-4.col-md-7.col-sm-8.col-12(data-aos="fade-down-left")
+      .col-lg-4.col-md-7.col-sm-8.col-12.mb-4.mb-lg-0(data-aos="fade-down-left")
         .px-2.h-100
           .row.align-items-center.justify-content-between.fondo-8.py-3
             .col-3
@@ -199,8 +203,9 @@
             .col-9
               h5.mb-0 ISSAF
               p.mb-0 Evaluación de la seguridad de los sistemas de información.
+
     .row.align-items-strecth.justify-content-center.my-4
-      .col-lg-4.col-md-7.col-sm-8.col-12(data-aos="fade-down-left")
+      .col-lg-4.col-md-7.col-sm-8.col-12.mb-4.mb-lg-0(data-aos="fade-down-left")
         .px-2.h-100
           .row.align-items-stretch.justify-content-between.fondo-8.py-2
             .col-3
@@ -208,7 +213,7 @@
             .col-9
               h5.mb-0 OSSTMM
               p.mb-0 Manual de metodología de prueba de seguridad de código abierto.
-      .col-lg-4.col-md-7.col-sm-8.col-12(data-aos="fade-down-left")
+      .col-lg-4.col-md-7.col-sm-8.col-12.mb-4.mb-lg-0(data-aos="fade-down-left")
         .px-2.h-100
           .row.align-items-stretch.justify-content-between.fondo-8.py-2
             .col-3
@@ -216,7 +221,7 @@
             .col-9
               h5.mb-0 PTES
               p Estándar de ejecución de pruebas de penetración.
-      .col-lg-4.col-md-7.col-sm-8.col-12(data-aos="fade-down-left")
+      .col-lg-4.col-md-7.col-sm-8.col-12.mb-4.mb-lg-0(data-aos="fade-down-left")
         .px-2.h-100
           .row.align-items-stretch.justify-content-between.fondo-8.py-2
             .col-3
@@ -237,6 +242,7 @@
         p Este marco de trabajo, propone la gestión desde una serie de funciones, las cuales se desarrollan de manera simultánea y continua como son: #[b Identificar, Proteger, Detectar, Responder y Recuperar]. Estas funciones del marco de trabajo, conlleva a desarrollar una serie de actividades basadas en categorías, encaminadas a reducir los riesgos que se pueden presentar y afectar la información de una organización.
 
         p A continuación, se puede observar un resumen de estas categorías y actividades que se desarrollan para la adecuada gestión de vulnerabilidades:
+    
 
     TabsB.color-primario.my-5
       .py-4.py-md-5(titulo="Identificar (ID)" :icono="require('@/assets/curso/tema1/figura8.svg')")
@@ -423,7 +429,7 @@
 
     .row.justify-content-center.mb-5.fondo-11.p-2.p-sm-3.p-lg-4
       .col-lg-10.col-md-12.px-0(data-aos="fade-down-right")
-        img(src='@/assets/curso/tema1/figura15.svg' alt="")
+        img(src='@/assets/curso/tema1/figura15.svg' alt="La imagen presenta el informe OWASP Top 10 2021, comparado con el 2017.")
       .col-lg-10.col-md-12.fondo-12.py-2(data-aos="fade-down-left")
         p.text-small.mb-0 Nota. Tomado de <i>OWASP</i> (2021)
 
@@ -435,7 +441,7 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
           .row(titulo="Pérdida del control de acceso (<em>Broken Access Control</em>)")(data-aos="fade-down-right")
             .col-md-11.mb-4.mb-md-0
-              p El control de acceso permite cumplir una política de permisos y roles. Estas restricciones implican que los usuarios no puedan actuar fuera de los permisos y, además, llevar un control de quien accede a cada recurso. La vulnerabilidad Broken Access Control permite que un usuario sin privilegios pueda acceder a un recurso al que no tendría que acceder.
+              p El control de acceso permite cumplir una política de permisos y roles. Estas restricciones implican que los usuarios no puedan actuar fuera de los permisos y, además, llevar un control de quien accede a cada recurso. La vulnerabilidad #[em Broken Access Control] permite que un usuario sin privilegios pueda acceder a un recurso al que no tendría que acceder.
               p ¿Qué impacto puede tener esto en una empresa?
               ul.lista-ul
                 li
@@ -541,7 +547,7 @@
                 .col.mb-3.mb-sm-0.text-white
                   h3.mb-1 OWASP
                   p.text-small Dado lo anterior, <i>owasp</i>, se ha vuelto una metodología práctica para la identificación de vulnerabilidades en las aplicaciones <i>web</i> más utilizadas por los equipos de desarrollo en los últimos años. Se sugiere explorar y hacer uso de esta metodología, consultando su documento oficial. Este recurso también está en el material complementario.
-                .col-sm-auto
+                .col-md-auto
                   a.boton.color-acento-botones(:href="('https://owasp.org/www-project-web-security-testing-guide/stable/')" target="_blank")
                     span Ir al sitio <i>web</i>
                     i.fas.fa-external-link-alt
@@ -615,7 +621,7 @@
                 .col.mb-3.mb-sm-0.text-white
                   h3.mb-1 ISSAF
                   p.text-small Este proyecto lleva varios años sin mantenimiento, pero se puede consultar el texto completo de la metodología en el enlace. Este recurso también puede ser consultado en el material complementario.
-                .col-sm-auto
+                .col-md-auto
                   a.boton.color-acento-botones(:href="('http://cuchillac.net/archivos/pre_seguridad_pymes/2_hakeo_etico/lects/metodologia_oissg.pdf')" target="_blank" type="application/pdf")
                     span Ir al sitio <i>web</i>
                     i.fas.fa-external-link-alt
@@ -658,7 +664,7 @@
                 td Testeo de las Personas Confiables
               tr
                 <td rowspan="16"><h6>Sección C - Seguridad en las tecnologías de Internet</h6></td>
-                td Identificación de los Servicios del Sistematd Logística y Controles
+                td Identificación de los Servicios del Sistema de Logística y Controles
               tr
                 td Exploración de Red
               tr
@@ -711,7 +717,7 @@
                 .col.mb-3.mb-sm-0.text-white
                   h3.mb-1 OSSTMM
                   p.text-small Si se desea profundizar detalles de esta metodología, se puede consultar su sitio oficial; el cual también se encuentra ubicado en el material complementario.
-                .col-sm-auto
+                .col-md-auto
                   a.boton.color-acento-botones(:href="('https://www.isecom.org')" target="_blank")
                     span Ir al sitio <i>web</i>
                     i.fas.fa-external-link-alt
@@ -741,7 +747,7 @@
                 .col.mb-3.mb-sm-0.text-white
                   h3.mb-1 PTES
                   p.text-small Su consulta para conocer más a detalle esta metodología puede ser a través de su sitio oficial, el cual también se encuentra en el material complementario.
-                .col-sm-auto
+                .col-md-auto
                   a.boton.color-acento-botones(:href="('http://www.pentest-standard.org/index.php/PTES_Technical_Guidelines')" target="_blank")
                     span Ir al sitio <i>web</i>
                     i.fas.fa-external-link-alt
@@ -847,7 +853,7 @@
             img(src='@/assets/curso/tema1/figura38.svg')
           .col-8
             h5 Pruebas visuales o de interfaz de usuario
-        p.text-small Son las pruebas que se realizan a interfaces de usuario para la revisión del comportamiento y la integridad de la información
+        p.text-small Son las pruebas que se realizan a interfaces de usuario para la revisión del comportamiento y la integridad de la información.
 
       .tarjeta.sinredondeo.ajustesize.fondo-19.p-4.m-auto
         .row.justify-content-center.mb-3.align-items-center
@@ -855,7 +861,7 @@
             img(src='@/assets/curso/tema1/figura39.svg')
           .col-8
             h5 Pruebas de humo
-        p.text-small Tipo de prueba que se realiza a un conjunto pequeño de controles para verificar su funcionalidad
+        p.text-small Tipo de prueba que se realiza a un conjunto pequeño de controles para verificar su funcionalidad.
 
       .tarjeta.sinredondeo.ajustesize.fondo-19.p-4.m-auto
         .row.justify-content-center.mb-3.align-items-center
@@ -898,9 +904,12 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/8q3cb4QwJSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    .row.justify-content-center.mb-5
-      .col-lg-5.col-md-6.col-sm-7.col-8.mb-4.mb-lg-0(data-aos="fade-down-right")
-        img(src='@/assets/curso/tema1/imagen5.png')
+    .row.justify-content-center
+      .col-lg-5.d-none.d-lg-flex(data-aos="fade-down-right")
+        figure
+          img(src="@/assets/curso/tema1/imagen5.png", alt="alt").class
+          figcaption 
+        
       .col-lg-7.col-md-12(data-aos="fade-down-left")
         p El <i>hacking</i> ético o también denominado sombrero blanco, es un conjunto de técnicas que se aplican para el descubrimiento de vulnerabilidades dentro de un entorno o un conjunto de aplicaciones.
         p Esta técnica se desarrolla de manera consentida y aprobada por las organizaciones y los responsables de realizar las validaciones correspondientes, con lo cual buscan identificar las debilidades, anormalidades y falencias en su seguridad.
@@ -918,6 +927,9 @@
       .col-lg-9
         PasosA.color-primario(tipo="n")
           .row.align-items-center
+            .col-auto
+              figure.px-2
+                img(src='@/assets/curso/tema1/figura43.svg', style="max-width:85px", alt="")
             .col
               h4 Fase 1 - Reconocimiento
               p Preparación del escenario, hace uso de diferentes técnicas para el descubrimiento de pistas que le permitan alcanzar su objetivo.
@@ -930,20 +942,14 @@
                   span <i>Dumpster diving</i>.
                 li.mb-0
                   i.lista-ul__vineta
-                  span Footprinters.
-            .col-auto
-              figure.px-2
-                img(src='@/assets/curso/tema1/figura43.svg', style="max-width:85px", alt="")
+                  span #[em Footprinters].            
 
 
-          .row.align-items-center
-            .col-auto
-              figure.px-2
-                img(src='@/assets/curso/tema1/figura44.svg', style="max-width:85px", alt="")
+          .row.align-items-center            
             .col
               h4 Fase 2 - Escaneo
               p A partir de la información recolectada, inicia con el escaneo con la ayuda de herramientas para la búsqueda de vulnerabilidades.
-              .d-flex.justify-content-end
+              .d-flex
                 ul.lista-ul
                   li.mb-0
                     i.lista-ul__vineta
@@ -951,9 +957,15 @@
                   li.mb-0
                     i.lista-ul__vineta
                     span Escáner de vulnerabilidades.
+            .col-auto
+              figure.px-2
+                img(src='@/assets/curso/tema1/figura44.svg', style="max-width:85px", alt="")
 
 
           .row.align-items-center
+            .col-auto
+              figure.px-2
+                img(src='@/assets/curso/tema1/figura45.svg', style="max-width:85px", alt="")
             .col
               h4 Fase 3 - Obtener acceso
               p Fase en la cual explota las vulnerabilidades encontradas.
@@ -979,37 +991,36 @@
                 li.mb-0
                   i.lista-ul__vineta
                   span <i>Network sniffers</i>.
+            
 
-            .col-auto
-              figure.px-2
-                img(src='@/assets/curso/tema1/figura45.svg', style="max-width:85px", alt="")
-
-          .row.align-items-center
+          .row.align-items-center            
+            .col
+              h4 Fase 4 - Mantener acceso
+              p Fase en donde mantiene el sistema vulnerable.             
+              ul.lista-ul
+                li.mb-0
+                  i.lista-ul__vineta
+                  span <i>Back Doors</i>.
+                li.mb-0
+                  i.lista-ul__vineta
+                  span Troyanos.
+                li.mb-0
+                  i.lista-ul__vineta
+                  span <i>Rootkit</i>.
+                li.mb-0
+                  i.lista-ul__vineta
+                  span <i>Keyloggers</i>.
+                li.mb-0
+                  i.lista-ul__vineta
+                  span <i>Botnets</i>.
             .col-auto
               figure.px-2
                 img(src='@/assets/curso/tema1/figura46.svg', style="max-width:85px", alt="")
-            .col
-              h4 Fase 4 - Mantener acceso
-              p Fase en donde mantiene el sistema vulnerable.
-              .d-flex.justify-content-end
-                ul.lista-ul
-                  li.mb-0
-                    i.lista-ul__vineta
-                    span <i>Back Doors</i>.
-                  li.mb-0
-                    i.lista-ul__vineta
-                    span Troyanos.
-                  li.mb-0
-                    i.lista-ul__vineta
-                    span <i>Rootkit</i>.
-                  li.mb-0
-                    i.lista-ul__vineta
-                    span <i>Keyloggers</i>.
-                  li.mb-0
-                    i.lista-ul__vineta
-                    span <i>Botnets</i>.
 
           .row.align-items-center
+            .col-auto
+              figure.px-2
+                img(src='@/assets/curso/tema1/figura47.svg', style="max-width:85px", alt="")
             .col
               h4 Fase 5 - Cubrir huella
               p Fase en la cual cubre todas las pistas de las acciones realizadas durante el ejercicio.
@@ -1027,9 +1038,7 @@
                   i.lista-ul__vineta
                   span <i>Tuneling</i>.
 
-            .col-auto
-              figure.px-2
-                img(src='@/assets/curso/tema1/figura47.svg', style="max-width:85px", alt="")
+            
 
     p.mb-5(data-aos="fade-down-right") Ahora bien, dependiendo de su alcance, se puede determinar el tipo de hacker requerido, tal como se evidencia en el siguiente video e infografía.
 

@@ -283,9 +283,9 @@
               p A partir del establecimiento de la gravedad del incidente, la organización puede mitigar su impacto conteniéndolo y recuperándose de él. En esta fase, se vuelve a la detección y el análisis, por ejemplo, para ver si hay hosts adicionales infectados por #[em malware] mientras se erradica el incidente.
               p La contención varía de acuerdo al tipo de incidente y para establecer una acción de respuesta se evalúan diferentes criterios, incluida la necesidad de preservación de evidencia para cualquier procedimiento legal posterior, el daño potencial, la disponibilidad del servicio o los recursos disponibles. La guía indica algunas formas de identificar hosts atacantes como la validación de las direcciones IP, usar bases de datos de incidentes y monitorear los canales de comunicación del atacante. El monitoreo de riesgos cibernéticos de terceros puede ayudar con estos esfuerzos.
               p Finalmente, en la erradicación se busca eliminar el <em>malware</em>, desactivar las cuentas comprometidas y mitigar vulnerabilidades, y en la recuperación se intenta restaurar los sistemas. Las plataformas de gestión de riesgos de terceros ayudan a la corrección a fin de evitar futuras exposiciones de seguridad.
-            .col-lg-3
+            .col-lg-3.d-none.d-lg-flex
               figure
-                img(src='@/assets/curso/tema2/figura9.svg',  alt="", style="max-width: 292px").m-auto
+                img(src='@/assets/curso/tema2/figura9.svg', alt="", style="max-width: 292px").m-auto
 
           .row.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
@@ -342,7 +342,7 @@
             .col-lg-6.mb-4.mb-lg-0
               h4 Respuesta y comunicación
               p En esta etapa se recomienda a la entidad dependiendo de la criticidad del evento y de sus consecuencias, aislar equipos, detener servicios y deshabilitar cuentas de usuarios entre otros; alterno, se realiza un análisis más profundo de la amenaza para indicar ubicaciones en la infraestructura tecnológica donde puede existir una copia del #[em malware] o de artefactos asociados a este. La evidencia se conserva para entender el comportamiento de la campaña.
-              p Es sumamente importante el establecimiento constante y desde un primer instante con la entidad, desde la evidencia del incidente hasta la mitigación y seguimiento; remitiendo procedimientos de respuesta a incidentes y de seguridad de la información; adicional a esto, se actúa de manera colaborativa reportando cuando sea pertinente al Grupo de Respuesta a Emergencias Cibernéticas de Colombia (COLCERT)
+              p Es sumamente importante el establecimiento constante y desde un primer instante con la entidad, desde la evidencia del incidente hasta la mitigación y seguimiento; remitiendo procedimientos de respuesta a incidentes y de seguridad de la información; adicional a esto, se actúa de manera colaborativa reportando cuando sea pertinente al Grupo de Respuesta a Emergencias Cibernéticas de Colombia (COLCERT).
             .col-lg-5
               figure
                 img(src='@/assets/curso/tema2/imagen10.png', alt="", style="max-width: 505px").m-auto
@@ -373,7 +373,7 @@
                 .col.mb-3.mb-sm-0.text-white
                   h3.mb-1 Gestión y Clasificación de Incidentes de Seguridad
                   p.text-small Se sugiere consultar este documento base desde el sitio oficial del MinTIC para conocer los detalles y guía de implementación. Este recurso se encuentra también en el material complementario.
-                .col-sm-auto
+                .col-md-auto
                   a.boton.color-acento-botones(:href="('https://gobiernodigital.mintic.gov.co/seguridadyprivacidad/704/articles-237908_maestro_mspi.pdf')" target="_blank")
                     span Ir al sitio <i>web</i>
                     i.fas.fa-external-link-alt
@@ -546,6 +546,9 @@
               p Obteniendo como resultado la tabla para la determinación de la prioridad de atención:
 
             .col-lg-5
+              .titulo-sexto.color-acento-contenido.mt-5
+                h5 Tabla 1.
+                span Determinación de la prioridad de atención
               .tabla-a.color-acento-contenido
                 table.text-center
                   caption Tomado de MINTIC (2021).
@@ -577,6 +580,9 @@
               p Se establece el tiempo de atención máximo en los cuales se debe de brindar atención a los incidentes dependiendo del nivel de prioridad, de acuerdo a la siguiente tabla; aunque cada organización puede definir los tiempos de acuerdo a sus capacidades y mejor lo considere pertinente.
 
             .col-lg-5
+              .titulo-sexto.color-acento-contenido.mt-5
+                h5 Tabla 2.
+                span Atención a los incidentes dependiendo del nivel de prioridad
               .tabla-a.color-acento-contenido.mb-5
                 table.text-center
                   caption Tomado de MINTIC (2021).
@@ -616,7 +622,7 @@
     .row.justify-content-center
       .col-lg-10.col-md-12
         .titulo-sexto.color-acento-contenido.mt-5(data-aos="fade")
-          h5 Tabla 1.
+          h5 Tabla 3.
           span Ejemplo de niveles de criticidad de impacto
         .tabla-a.color-acento-contenido.mb-5
           table.text-center
@@ -653,7 +659,7 @@
     .row.justify-content-center
       .col-lg-10.col-md-12
         .titulo-sexto.color-acento-contenido.mt-5(data-aos="fade")
-          h5 Tabla 2.
+          h5 Tabla 4.
           span  Ejemplo de niveles de impacto actual y futuro
         .tabla-a.color-acento-contenido.mb-5
           table.text-center
@@ -686,7 +692,7 @@
                 td Impacto alto en uno o más componentes de más de un sistema de información.
 
     .btn-h3.mb-4.mt-4
-      span.h3 Contención erradicación y recuperación
+      span.h3 Contención, erradicación y recuperación
 
     p.my-4(data-aos="fade-down-right") Esta fase es de gran importancia, ya que incorpora la estrategia propuesta para tomar decisiones en caso de presentarse un incidente y evitar que este se propague o tenga una mayor afectación. Consta de los siguientes componentes:
 
@@ -735,12 +741,13 @@
         p La gestión de incidentes, como parte primordial de las estrategias de seguridad de la información en las organizaciones, se fundamenta en la información recolectada, la cual es fundamental para la toma de decisiones, informes, lecciones aprendidas e incluso para el mejoramiento continuo del plan de gestión.
         p En este orden de ideas, se debe mantener un registro detallado de los incidentes de seguridad que son identificados, para poder dar tratamiento y una gestión adecuada. Se empieza estableciendo los mecanismos de captura de estos incidentes, para lo cual puede ser útil documentos de captura, o formularios que recolectan la información relevante, la norma GTC-ISO-IEC 27035:2012 en su anexo D, presenta algunos modelos de formularios que pueden ser adaptados a nuestras necesidades. Algunos de ellos son:
 
-      .col-lg-3.col-md-4.col-sm-5.col-6(data-aos="fade-down-left")
-        img(src='@/assets/curso/tema2/figura18.svg', alt="")
+      .col-lg-3.d-none.d-lg-flex(data-aos="fade-down-left")
+        figure
+          img(src="@/assets/curso/tema2/figura18.svg", alt="alt")     
 
-    .row.justify-content-center.fondo-40.py-4
+    .row.justify-content-center.fondo-40.py-4.mb-5
       .col-lg-10.col-11.mostrar-lg
-        img.mb-4(src='@/assets/curso/tema2/figura19.svg', alt="")
+        img.mb-4(src='@/assets/curso/tema2/figura19.svg', alt="La imagen presenta el proceso de documentación tanto para los instrumentos de registro de información, como para los instrumentos de captura de información: Información básica, detalles de la persona que reporta, descripción del evento y por último detalle del evento.")
       .col-auto.mostrar-lg
         a.anexo.mb-4(:href="obtenerLink('/downloads/procesos_documentacion.pdf')" target="_blank")
           .anexo__icono
@@ -836,21 +843,18 @@
                 i.fas.fa-check-circle
                 span Fecha y hora en la que se reportó el evento.
 
-    .row.justify-content-center.my-5(data-aos="fade-down-right")
-      .col-lg-10
-        .tarjeta.color-secundario.p-3
-          .row.justify-content-around.align-items-center
-            .col-auto
-              img(src='@/assets/curso/tema1/figura13.svg', style="max-width: 80px", alt="")
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.text-white
-                  h3.mb-1 Formulario GTC-ISO-IEC 27035:2012
-                  p.text-small En la norma anteriormente citada, se pueden encontrar múltiples modelos de formularios, los cuales pueden ser adaptados a las necesidades de la organización. Por otra parte, a continuación, se puede observar un modelo de formulario básico para la captura de información de un incidente. Esta información, dado que almacenará datos personales, estará obligada a contar con los procesos necesarios para la protección adecuada de datos y garantizar así su privacidad.
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Imagen_1_formulario.png')" target="_blank")
-                    span Ver formulario
-                    i.fas.fa-external-link-alt
+    p.mb-4 En la norma anteriormente citada, se pueden encontrar múltiples modelos de formularios, los cuales pueden ser adaptados a las necesidades de la organización. Por otra parte, a continuación, se puede observar un modelo de formulario básico para la captura de información de un incidente. Esta información, dado que almacenará datos personales, estará obligada a contar con los procesos necesarios para la protección adecuada de datos y garantizar así su privacidad.
+    
+
+    .row.justify-content-center
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido.mt-5(data-aos="fade")
+          h5 Figura 4.
+          span Formulario GTC-ISO-IEC 27035:2012
+
+        figure
+          img(src="@/assets/curso/tema2/formulario.png", alt="Esta imagen presenta el Formulario GTC-ISO-IEC 27035:2012, una herramienta para la gestión de incidentes de seguridad de la información. El formulario proporciona una estructura organizada para registrar y gestionar los incidentes de seguridad de manera efectiva. Se incluyen campos relevantes para recopilar información detallada sobre los incidentes, como la descripción del incidente, el impacto en la organización, los activos afectados y las acciones tomadas para mitigar el incidente. Además, se incluyen secciones para identificar las causas raíz y las lecciones aprendidas, lo que permite mejorar las medidas de seguridad y prevenir futuros incidentes similares.")
+    
 
 </template>
 
