@@ -69,7 +69,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Equipos de seguridad <em>RedTeam & BlueTeam</em>',
+            titulo: 'Equipos de seguridad <em>Red Team & Blue Team</em>',
             hash: 't_1_4',
           },
         ],
@@ -185,7 +185,7 @@ export default {
     {
       tema: '1.1. Gestión de vulnerabilidades',
       referencia:
-        '<em>Pentest-standard.org/em>. (s.f.). <em>PTES Technical Guidelines</em>.',
+        '<em>Pentest-standard.org</em>. (s.f.). <em>PTES Technical Guidelines</em>.',
       tipo: 'Sitio <em>web</em>',
       link:
         'http://www.pentest-standard.org/index.php/PTES_Technical_Guidelines ',
@@ -197,9 +197,9 @@ export default {
       link: 'https://www.isecom.org/research.html#content5-9d',
     },
     {
-      tema: '1.3 Hacking ético',
+      tema: '1.3 <em>Hacking</em> ético',
       referencia:
-        'Rodríguez Llerena, A. E. (2020). Herramientas fundamentales para el <em>hacking</em> ético. Revista Cubana de Informatica Medica, 12(1), 116-131.',
+        'Rodríguez Llerena, A. E. (2020). Herramientas fundamentales para el <em>hacking</em> ético. Revista Cubana de Informática Médica, 12(1), 116-131.',
       tipo: 'Artículo',
       link:
         'https://search-ebscohost-com.bdigital.sena.edu.co/login.aspx?direct=true&db=fap&AN=144392670&lang=es&site=ehost-live',
