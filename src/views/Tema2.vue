@@ -853,7 +853,7 @@
           span Modelo de formato básico para la captura de información de un incidente
 
         figure
-          img(src="@/assets/curso/tema2/formulario.png", alt="Esta imagen presenta el Formulario GTC-ISO-IEC 27035:2012, una herramienta para la gestión de incidentes de seguridad de la información. El formulario proporciona una estructura organizada para registrar y gestionar los incidentes de seguridad de manera efectiva. Se incluyen campos relevantes para recopilar información detallada sobre los incidentes, como la descripción del incidente, el impacto en la organización, los activos afectados y las acciones tomadas para mitigar el incidente. Además, se incluyen secciones para identificar las causas raíz y las lecciones aprendidas, lo que permite mejorar las medidas de seguridad y prevenir futuros incidentes similares.")
+          img(src="@/assets/curso/tema2/formulario.svg", alt="Esta imagen presenta el Formulario GTC-ISO-IEC 27035:2012, una herramienta para la gestión de incidentes de seguridad de la información. El formulario proporciona una estructura organizada para registrar y gestionar los incidentes de seguridad de manera efectiva. Se incluyen campos relevantes para recopilar información detallada sobre los incidentes, como la descripción del incidente, el impacto en la organización, los activos afectados y las acciones tomadas para mitigar el incidente. Además, se incluyen secciones para identificar las causas raíz y las lecciones aprendidas, lo que permite mejorar las medidas de seguridad y prevenir futuros incidentes similares.")
 
 
 </template>
