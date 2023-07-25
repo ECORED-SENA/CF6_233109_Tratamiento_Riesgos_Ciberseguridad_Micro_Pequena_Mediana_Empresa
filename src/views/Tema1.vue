@@ -19,7 +19,7 @@
       .col-lg-4.d-none.d-lg-flex(data-aos="fade-down-left")
         figure
           img(src="@/assets/curso/tema1/imagen2.png", alt="alt")
-        
+
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-down-left")
       h2 1.1 Gestión de vulnerabilidades
@@ -126,12 +126,12 @@
 
       .col-lg-4.d-none.d-lg-flex(data-aos="fade-down-left")
         figure
-          img(src="@/assets/curso/tema1/imagen3.png", alt="alt")        
+          img(src="@/assets/curso/tema1/imagen3.png", alt="alt")
 
     .row.justify-content-center
       .col-lg-4.d-none.d-lg-flex(data-aos="fade-down-left")
         figure
-          img(src="@/assets/curso/tema1/figura7.svg", alt="alt")        
+          img(src="@/assets/curso/tema1/figura7.svg", alt="alt")
 
       .col-lg-8.col-md-12.mb-4.mb-lg-0.order-lg-last.order-first(data-aos="fade-down-right")
         LineaTiempoD.cambiocolor
@@ -242,7 +242,7 @@
         p Este marco de trabajo, propone la gestión desde una serie de funciones, las cuales se desarrollan de manera simultánea y continua como son: #[b Identificar, Proteger, Detectar, Responder y Recuperar]. Estas funciones del marco de trabajo, conlleva a desarrollar una serie de actividades basadas en categorías, encaminadas a reducir los riesgos que se pueden presentar y afectar la información de una organización.
 
         p A continuación, se puede observar un resumen de estas categorías y actividades que se desarrollan para la adecuada gestión de vulnerabilidades:
-    
+
 
     TabsB.color-primario.my-5
       .py-4.py-md-5(titulo="Identificar (ID)" :icono="require('@/assets/curso/tema1/figura8.svg')")
@@ -342,7 +342,7 @@
         .row.justify-content-center.align-items-start
           .col-md-10.mb-4.mb-md-0
             .tabla-a.color-secundario
-              table
+              table.text-center
                 caption Funciones del <i>framework</i> NIST - Responder
                 thead
                   tr
@@ -352,8 +352,8 @@
                     th CATEGORÍAS
                 tbody.fondo-blanco
                   tr
-                    td.text-center(rowspan="5") RS
-                    td.text-center(rowspan="5") RESPONDER
+                    <td rowspan="5">RS</td>
+                    <td rowspan="5">RESPONDER</td>
                     td Planificación de respuesta
                     td Planificación de respuesta
                   tr
@@ -650,60 +650,60 @@
             tbody.fondo-blanco
               tr
                 <td rowspan="3"><h6>Sección A -Seguridad de la Información</h6></td>
-                td Revisión de la Inteligencia Competitiva
+                td.text-left Revisión de la Inteligencia Competitiva
               tr
-                td Revisión de Privacidad
+                td.text-left Revisión de Privacidad
               tr
-                td Recolección de Documentos
+                td.text-left Recolección de Documentos
               tr
                 <td rowspan="3"><h6>Sección B - Seguridad de los Procesos</h6></td>
-                td Testeo de Solicitud
+                td.text-left Testeo de Solicitud
               tr
-                td Testeo de Sugerencia Dirigida
+                td.text-left Testeo de Sugerencia Dirigida
               tr
-                td Testeo de las Personas Confiables
+                td.text-left Testeo de las Personas Confiables
               tr
                 <td rowspan="16"><h6>Sección C - Seguridad en las tecnologías de Internet</h6></td>
-                td Identificación de los Servicios del Sistema de Logística y Controles
+                td.text-left Identificación de los Servicios del Sistema de Logística y Controles
               tr
-                td Exploración de Red
+                td.text-left Exploración de Red
               tr
-                td Identificación de los Servicios del Sistema
+                td.text-left Identificación de los Servicios del Sistema
               tr
-                td Búsqueda de Información Competitiva
+                td.text-left Búsqueda de Información Competitiva
               tr
-                td Revisión de Privacidad
+                td.text-left Revisión de Privacidad
               tr
-                td Obtención de Documentos
+                td.text-left Obtención de Documentos
               tr
-                td Búsqueda y Verificación de Vulnerabilidades
+                td.text-left Búsqueda y Verificación de Vulnerabilidades
               tr
-                td Testeo de Aplicaciones de Internet
+                td.text-left Testeo de Aplicaciones de Internet
               tr
-                td Enrutamiento
+                td.text-left Enrutamiento
               tr
-                td Testeo de Sistemas Confiados
+                td.text-left Testeo de Sistemas Confiados
               tr
-                td Testeo de Control de Acceso
+                td.text-left Testeo de Control de Acceso
               tr
-                td Testeo de Sistema de Detección de Intrusos
+                td.text-left Testeo de Sistema de Detección de Intrusos
               tr
-                td Testeo de Medidas de Contingencia
+                td.text-left Testeo de Medidas de Contingencia
               tr
-                td Descifrado de Contraseñas
+                td.text-left Descifrado de Contraseñas
               tr
-                td Testeo de Denegación de Servicios
+                td.text-left Testeo de Denegación de Servicios
               tr
-                td Evaluación de Políticas de Seguridad
+                td.text-left Evaluación de Políticas de Seguridad
               tr
                 <td rowspan="4"><h6>Sección D - Seguridad en las Comunicaciones</h6></td>
-                td Testeo de PBX
+                td.text-left Testeo de PBX
               tr
-                td Testeo del Correo de Voz
+                td.text-left Testeo del Correo de Voz
               tr
-                td Revisión del FAX
+                td.text-left Revisión del FAX
               tr
-                td Testeo del Modem
+                td.text-left Testeo del Modem
 
 
     .row.justify-content-center.my-4(data-aos="fade-down-right")
@@ -908,8 +908,8 @@
       .col-lg-5.d-none.d-lg-flex(data-aos="fade-down-right")
         figure
           img(src="@/assets/curso/tema1/imagen5.png", alt="alt").class
-          figcaption 
-        
+          figcaption
+
       .col-lg-7.col-md-12(data-aos="fade-down-left")
         p El <i>hacking</i> ético o también denominado sombrero blanco, es un conjunto de técnicas que se aplican para el descubrimiento de vulnerabilidades dentro de un entorno o un conjunto de aplicaciones.
         p Esta técnica se desarrolla de manera consentida y aprobada por las organizaciones y los responsables de realizar las validaciones correspondientes, con lo cual buscan identificar las debilidades, anormalidades y falencias en su seguridad.
@@ -942,10 +942,10 @@
                   span <i>Dumpster diving</i>.
                 li.mb-0
                   i.lista-ul__vineta
-                  span #[em Footprinters].            
+                  span #[em Footprinters].
 
 
-          .row.align-items-center            
+          .row.align-items-center
             .col
               h4 Fase 2 - Escaneo
               p A partir de la información recolectada, inicia con el escaneo con la ayuda de herramientas para la búsqueda de vulnerabilidades.
@@ -991,12 +991,12 @@
                 li.mb-0
                   i.lista-ul__vineta
                   span <i>Network sniffers</i>.
-            
 
-          .row.align-items-center            
+
+          .row.align-items-center
             .col
               h4 Fase 4 - Mantener acceso
-              p Fase en donde mantiene el sistema vulnerable.             
+              p Fase en donde mantiene el sistema vulnerable.
               ul.lista-ul
                 li.mb-0
                   i.lista-ul__vineta
@@ -1038,18 +1038,18 @@
                   i.lista-ul__vineta
                   span <i>Tuneling</i>.
 
-            
+
 
     p.mb-5(data-aos="fade-down-right") Ahora bien, dependiendo de su alcance, se puede determinar el tipo de #[em hacker] requerido, tal como se evidencia en el siguiente video e infografía.
 
     figure(data-aos="fade-up-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Puk3JZ5R_Ic" title="Tipos <em>Hackers</em>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Puk3JZ5R_Ic" title="Tipos Hackers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Tipos #[em Hackers].
 
 
     figure.my-5.d-none.d-lg-block
-      img(src='@/assets/curso/tema1/figura48.svg', alt="Tipos de <em>hacker: WhistleBlower, Black Hat, Grey Hat, White Hat, Red Hat, Green Hat, Purple Hat, Blue Hat</em>")
+      img(src='@/assets/curso/tema1/figura48.svg', alt="Tipos de hacker: WhistleBlower, Black Hat, Grey Hat, White Hat, Red Hat, Green Hat, Purple Hat, Blue Hat")
 
     figure.my-5.d-lg-none
       img(src='@/assets/curso/tema1/figura48b.png', style="max-width: 270px", alt="Tipos de hacker: WhistleBlower, Black Hat, Grey Hat, White Hat, Red Hat, Green Hat, Purple Hat, Blue Hat").m-auto

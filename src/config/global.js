@@ -185,7 +185,7 @@ export default {
     {
       tema: '1.1. Gestión de vulnerabilidades',
       referencia:
-        '<em>Pentest-standard.org/</em>. (s.f.). <em>PTES Technical Guidelines</em>.',
+        '<em>Pentest-standard.org</em>. (s.f.). <em>PTES Technical Guidelines</em>.',
       tipo: 'Sitio <em>web</em>',
       link:
         'http://www.pentest-standard.org/index.php/PTES_Technical_Guidelines ',
