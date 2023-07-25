@@ -342,7 +342,7 @@
         .row.justify-content-center.align-items-start
           .col-md-10.mb-4.mb-md-0
             .tabla-a.color-secundario
-              table.text-center
+              table
                 caption Funciones del <i>framework</i> NIST - Responder
                 thead
                   tr
@@ -352,8 +352,8 @@
                     th CATEGORÍAS
                 tbody.fondo-blanco
                   tr
-                    <td rowspan="5">RS</td>
-                    <td rowspan="5">RESPONDER</td>
+                    td.text-center(rowspan="5") RS
+                    td.text-center(rowspan="5") RESPONDER
                     td Planificación de respuesta
                     td Planificación de respuesta
                   tr
@@ -418,14 +418,14 @@
 
         p Es una organización sin fines lucrativos, la cual busca ayudar a visibilizar las vulnerabilidades en aplicaciones para su mejoramiento de la seguridad a partir de una adecuada gestión del riesgo, siendo este un pilar fundamental para el desarrollo y aplicación de su metodología.
 
-        p <i>Owasp</i> provee de un <em>framework</em> abierto el cual permite implementar auditorías en aplicaciones principalmente de tipo <i>web</i>, basados esencialmente en pruebas de caja blanca y caja negra. A partir de su ejercicio identifica las vulnerabilidades más representativas y presentes en la actualidad en su <i>Owasp</i> top 10. En su último reporte, el <i>Owasp</i> Top 10 2021 se puede apreciar la siguiente clasificación frente al informe previo del año 2017:
+        p <i>OWASP</i> provee de un <em>framework</em> abierto el cual permite implementar auditorías en aplicaciones principalmente de tipo <i>web</i>, basados esencialmente en pruebas de caja blanca y caja negra. A partir de su ejercicio identifica las vulnerabilidades más representativas y presentes en la actualidad en su <i>OWASP</i> top 10. En su último reporte, el <i>OWASP</i> Top 10 2021 se puede apreciar la siguiente clasificación frente al informe previo del año 2017:
 
       .col-lg-5.col-md-6.col-sm-7.col-8(data-aos="fade-down-left")
         img(src='@/assets/curso/tema1/figura14.svg' alt="")
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade")
       h5 Figura 3.
-      span <i>Owasp</i> Top 10 2021
+      span <i>OWASP</i> Top 10 2021
 
     .row.justify-content-center.mb-5.fondo-11.p-2.p-sm-3.p-lg-4
       .col-lg-10.col-md-12.px-0(data-aos="fade-down-right")
@@ -514,7 +514,7 @@
                   span Inclusión de código no deseado por un ciberdelincuente en mi aplicación.
           .row(titulo="Fallos en el registro y la supervisión de la seguridad (<em>Security Logging and Monitoring Failures</em>)")(data-aos="fade-down-right")
             .col-md-11.mb-4.mb-md-0
-              p La falta de registros sobre eventos, los denominados logs, en la aplicación o en el sistema, como inicios de sesión (tanto válidos como fallidos). Por ejemplo: que estos registros no se almacenen remotamente impide que se puedan detectar las infracciones.
+              p La falta de registros sobre eventos, los denominados #[em logs], en la aplicación o en el sistema, como inicios de sesión (tanto válidos como fallidos). Por ejemplo: que estos registros no se almacenen remotamente impide que se puedan detectar las infracciones.
               p ¿Qué impacto puede tener esto en mi empresa?
               ul.lista-ul
                 li
@@ -546,7 +546,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
                   h3.mb-1 OWASP
-                  p.text-small Dado lo anterior, <i>owasp</i>, se ha vuelto una metodología práctica para la identificación de vulnerabilidades en las aplicaciones <i>web</i> más utilizadas por los equipos de desarrollo en los últimos años. Se sugiere explorar y hacer uso de esta metodología, consultando su documento oficial. Este recurso también está en el material complementario.
+                  p.text-small Dado lo anterior, <i>OWASP</i>, se ha vuelto una metodología práctica para la identificación de vulnerabilidades en las aplicaciones <i>web</i> más utilizadas por los equipos de desarrollo en los últimos años. Se sugiere explorar y hacer uso de esta metodología, consultando su documento oficial. Este recurso también está en el material complementario.
                 .col-md-auto
                   a.boton.color-acento-botones(:href="('https://owasp.org/www-project-web-security-testing-guide/stable/')" target="_blank")
                     span Ir al sitio <i>web</i>
@@ -571,7 +571,7 @@
             .col-lg-8
               h5 Planeación y preparación
               p Establece los pasos iniciales para el desarrollo de la auditoría y ejercicios de testeo.
-              p Entre las actividades relacionadas se encuentran: Identificación de interesados, reuniones de apertura, definición de enfoque y metodología, cronograma de tiempo.
+              p Entre las actividades relacionadas se encuentran: identificación de interesados, reuniones de apertura, definición de enfoque y metodología, cronograma de tiempo.
             .col-lg-4.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/tema1/issaf-1.svg', alt='')
@@ -764,7 +764,7 @@
       .col-lg-2.col-md-3.col-sm-4.col-5.mb-4.mb-lg-0(data-aos="fade-down-right")
         img(src='@/assets/curso/tema1/figura27.svg')
       .col-lg-10.col-md-9.col-sm-12(data-aos="fade-down-left")
-        p Cuando se está desarrollando el proceso de evaluación de la seguridad, se debe de garantizar que los resultados presentados estén respaldados en ejercicios de verificación y comprobación que permitan establecer si una condición se está cumplimento o no; para este caso estamos hablando de controles, técnicas, tácticas para el aseguramiento de la información y en este ejercicio pueden surgir diferentes alternativas para verificar este tipo de cumplimientos, entre las que se pueden apreciar:
+        p Cuando se está desarrollando el proceso de evaluación de la seguridad, se debe de garantizar que los resultados presentados estén respaldados en ejercicios de verificación y comprobación que permitan establecer si una condición se está cumpliendo o no; para este caso estamos hablando de controles, técnicas, tácticas para el aseguramiento de la información y en este ejercicio pueden surgir diferentes alternativas para verificar este tipo de cumplimientos, entre las que se pueden apreciar:
 
     SlyderF(data-aos="fade-down-right").mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.sinredondeo.ajustesize.fondo-19.p-4.m-auto
@@ -805,7 +805,7 @@
             img(src='@/assets/curso/tema1/figura32.svg')
           .col-8
             h5  Pruebas de caja blanca
-        p.text-small Este tipo de pruebas validan el comportamiento de la lógica de la solución, para realizar este tipo de pruebas, se asume que conoce los detalles de su arquitectura, métodos, funciones entre otros.
+        p.text-small Este tipo de pruebas validan el comportamiento de la lógica de la solución, para realizar este tipo de pruebas, se asume que conoce los detalles de su arquitectura, métodos, funciones, entre otros.
 
       .tarjeta.sinredondeo.ajustesize.fondo-19.p-4.m-auto
         .row.justify-content-center.mb-3.align-items-center
@@ -891,7 +891,7 @@
     .row.fondo-20.align-items-center
       .col-lg-8.col-md-12.mb-lg-2.mb-lg-4.p-lg-5.p-3(data-aos="fade-down-right")
         p.mt-0.mt-lg-3.mt-xl-0 Existen varios tipos de pruebas que se pueden realizar a las aplicaciones o soluciones con las que cuenta la organización que permite verificar si realmente están realizando las operaciones según lo solicitado y lo establecido en el programa.
-        p Su aplicación dependerá del alcance de la evaluación a realizar, así como también dependerá si las soluciones son construidas <i>in-house</i> o son adquiridas a un tercero, en cualquiera de los casos, debería de validarse la información para garantizar su integridad
+        p Su aplicación dependerá del alcance de la evaluación a realizar, así como también dependerá si las soluciones son construidas <i>in-house</i> o son adquiridas a un tercero, en cualquiera de los casos, debería de validarse la información para garantizar su integridad.
       .col-lg-4.col-md-6.col-sm-7.col-8.pe-0.pb-0.my-5.mostrar-lg(data-aos="fade-down-left")
         img.subir(src='@/assets/curso/tema1/imagen4.png')
     separador
@@ -1040,16 +1040,16 @@
 
             
 
-    p.mb-5(data-aos="fade-down-right") Ahora bien, dependiendo de su alcance, se puede determinar el tipo de hacker requerido, tal como se evidencia en el siguiente video e infografía.
+    p.mb-5(data-aos="fade-down-right") Ahora bien, dependiendo de su alcance, se puede determinar el tipo de #[em hacker] requerido, tal como se evidencia en el siguiente video e infografía.
 
     figure(data-aos="fade-up-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Puk3JZ5R_Ic" title="Tipos Hackers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Tipos Hackers.
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Puk3JZ5R_Ic" title="Tipos <em>Hackers</em>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Tipos #[em Hackers].
 
 
     figure.my-5.d-none.d-lg-block
-      img(src='@/assets/curso/tema1/figura48.svg', alt="Tipos de hacker: WhistleBlower, Black Hat, Grey Hat, White Hat, Red Hat, Green Hat, Purple Hat, Blue Hat")
+      img(src='@/assets/curso/tema1/figura48.svg', alt="Tipos de <em>hacker: WhistleBlower, Black Hat, Grey Hat, White Hat, Red Hat, Green Hat, Purple Hat, Blue Hat</em>")
 
     figure.my-5.d-lg-none
       img(src='@/assets/curso/tema1/figura48b.png', style="max-width: 270px", alt="Tipos de hacker: WhistleBlower, Black Hat, Grey Hat, White Hat, Red Hat, Green Hat, Purple Hat, Blue Hat").m-auto

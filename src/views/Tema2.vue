@@ -76,15 +76,16 @@
               li
                 i.fas.fa-check-circle
                 span Establece el ISIRT (Equipo de respuesta a incidentes de seguridad de la información):
-              li
-                i.fas.fa-check-circle
-                span Establecimiento del esquema de soportes
-              li
-                i.fas.fa-check-circle
-                span Instrucción y formación para la toma de conciencia relacionada con la gestión de incidentes de seguridad de la información.
-              li
-                i.fas.fa-check-circle
-                span Pruebas del esquema de gestión de incidentes de seguridad de la información.
+                ul.lista-ul
+                  li
+                    i.fas.fa-check-circle
+                    span Establecimiento del esquema de soportes
+                  li
+                    i.fas.fa-check-circle
+                    span Instrucción y formación para la toma de conciencia relacionada con la gestión de incidentes de seguridad de la información.
+                  li
+                    i.fas.fa-check-circle
+                    span Pruebas del esquema de gestión de incidentes de seguridad de la información.
 
           .tarjeta.fondo-gris.p-3(x="98%" y="32%" numero="+")
             p.fuente14px.text-bold Detección y reporte
@@ -301,7 +302,7 @@
           .col-lg-1.col-md-2.col-sm-3.col-4.mb-4.mb-lg-0(data-aos="fade-down-right")
             img(src='@/assets/curso/tema2/figura10.svg', alt="")
           .col-lg-11.col-md-12(data-aos="fade-down-left")
-            p.mb-0 Este guía para la gestión de incidentes también ha cobrado fuerza entre las organizaciones, por su fácil aplicabilidad y por la aplicabilidad incluso de terceros de la organización.
+            p.mb-0 Esta guía para la gestión de incidentes también ha cobrado fuerza entre las organizaciones, por su fácil aplicabilidad y por la aplicabilidad incluso de terceros de la organización.
 
     separador
 
@@ -341,7 +342,7 @@
           .row.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
               h4 Respuesta y comunicación
-              p En esta etapa se recomienda a la entidad dependiendo de la criticidad del evento y de sus consecuencias, aislar equipos, detener servicios y deshabilitar cuentas de usuarios entre otros; alterno, se realiza un análisis más profundo de la amenaza para indicar ubicaciones en la infraestructura tecnológica donde puede existir una copia del #[em malware] o de artefactos asociados a este. La evidencia se conserva para entender el comportamiento de la campaña.
+              p En esta etapa se recomienda a la entidad dependiendo de la criticidad del evento y de sus consecuencias, aislar equipos, detener servicios y deshabilitar cuentas de usuario, entre otros; alterno, se realiza un análisis más profundo de la amenaza para indicar ubicaciones en la infraestructura tecnológica donde puede existir una copia del #[em malware] o de artefactos asociados a este. La evidencia se conserva para entender el comportamiento de la campaña.
               p Es sumamente importante el establecimiento constante y desde un primer instante con la entidad, desde la evidencia del incidente hasta la mitigación y seguimiento; remitiendo procedimientos de respuesta a incidentes y de seguridad de la información; adicional a esto, se actúa de manera colaborativa reportando cuando sea pertinente al Grupo de Respuesta a Emergencias Cibernéticas de Colombia (COLCERT).
             .col-lg-5
               figure
@@ -406,7 +407,7 @@
           .col-auto
             img(src='@/assets/curso/tema2/figura13.svg', alt="", style="max-width: 85px")
           .col
-            h5.mb-0 Contención erradicación y recuperación
+            h5.mb-0 Contención, erradicación y recuperación
 
       .col-lg-3.col-md-6.col-sm-12.fondo-37.p-1.separar1.mb-4(data-aos="fade-down-right")
         .row.justify-content-center.align-items-center.p-3
@@ -479,7 +480,7 @@
           .row.justify-content-center
             .col-lg-6.mb-4.mb-lg-0
               h4 Detección
-              p Revisar los indicadores o eventos que conlleven a sospechar que algún elemento no está funcionando o respondiendo como se espera, puede apoyarse en: alertas de sistemas de seguridad, reportes de caída de servidores, reportes de usuarios, reportes de antivirus, logs de servidores, de aplicaciones, de herramientas de seguridad como los SIEM, entre otros.
+              p Revisar los indicadores o eventos que conlleven a sospechar que algún elemento no está funcionando o respondiendo como se espera, puede apoyarse en: alertas de sistemas de seguridad, reportes de caída de servidores, reportes de usuarios, reportes de antivirus, #[em logs] de servidores, de aplicaciones, de herramientas de seguridad como los SIEM, entre otros.
             .col-lg-5
               figure
                 img(src='@/assets/curso/tema2/imagen17.png', alt="", style="max-width: 505px").m-auto
@@ -850,10 +851,10 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mt-5(data-aos="fade")
           h5 Figura 4.
-          span Formulario GTC-ISO-IEC 27035:2012
+          span Modelo de formato básico para la captura de información de un incidente
 
         figure
-          img(src="@/assets/curso/tema2/formulario.png", alt="Esta imagen presenta el Formulario GTC-ISO-IEC 27035:2012, una herramienta para la gestión de incidentes de seguridad de la información. El formulario proporciona una estructura organizada para registrar y gestionar los incidentes de seguridad de manera efectiva. Se incluyen campos relevantes para recopilar información detallada sobre los incidentes, como la descripción del incidente, el impacto en la organización, los activos afectados y las acciones tomadas para mitigar el incidente. Además, se incluyen secciones para identificar las causas raíz y las lecciones aprendidas, lo que permite mejorar las medidas de seguridad y prevenir futuros incidentes similares.")
+          img(src="@/assets/curso/tema2/formulario.svg", alt="Esta imagen presenta el Formulario GTC-ISO-IEC 27035:2012, una herramienta para la gestión de incidentes de seguridad de la información. El formulario proporciona una estructura organizada para registrar y gestionar los incidentes de seguridad de manera efectiva. Se incluyen campos relevantes para recopilar información detallada sobre los incidentes, como la descripción del incidente, el impacto en la organización, los activos afectados y las acciones tomadas para mitigar el incidente. Además, se incluyen secciones para identificar las causas raíz y las lecciones aprendidas, lo que permite mejorar las medidas de seguridad y prevenir futuros incidentes similares.")
     
 
 </template>
