@@ -75,16 +75,18 @@
                 span Define esquema de gestión de incidentes de seguridad de la información.
               li
                 i.fas.fa-check-circle
-                span Establece el ISIRT (Equipo de respuesta a incidentes de seguridad de la información).
-              li
-                i.fas.fa-check-circle
-                span Establecimiento del esquema de soportes
-              li
-                i.fas.fa-check-circle
-                span Instrucción y formación para la toma de conciencia relacionada con la gestión de incidentes de seguridad de la información.
-              li
-                i.fas.fa-check-circle
-                span Pruebas del esquema de gestión de incidentes de seguridad de la información.
+                span Establece el ISIRT (Equipo de respuesta a incidentes de seguridad de la información):
+
+              ul.ps-4.lista-ul              
+                li
+                  i.far.fa-dot-circle
+                  span Establecimiento del esquema de soportes
+                li
+                  i.far.fa-dot-circle
+                  span Instrucción y formación para la toma de conciencia relacionada con la gestión de incidentes de seguridad de la información.
+                li
+                  i.far.fa-dot-circle
+                  span Pruebas del esquema de gestión de incidentes de seguridad de la información.
 
           .tarjeta.fondo-gris.p-3(x="98%" y="32%" numero="+")
             p.fuente14px.text-bold Detección y reporte
