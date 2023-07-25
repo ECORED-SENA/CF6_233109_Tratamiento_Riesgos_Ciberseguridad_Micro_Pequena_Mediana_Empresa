@@ -1,0 +1,36 @@
+<svg id="Grupo_949985" data-name="Grupo 949985" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="185.769" height="207.334" viewBox="0 0 185.769 207.334">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.509" x2="0.509" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#535353"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" fx="0.24510066211223602" fy="0.19917581975460052" r="0.523" gradientTransform="matrix(0.999, 0.05, -0.045, 0.904, 0.023, 0.023)" gradientUnits="objectBoundingBox">
+      <stop offset="0.352" stop-color="#d49d24"/>
+      <stop offset="0.467" stop-color="#ce9722"/>
+      <stop offset="0.608" stop-color="#c08820"/>
+      <stop offset="0.762" stop-color="#a8701b"/>
+      <stop offset="0.924" stop-color="#874d14"/>
+      <stop offset="0.956" stop-color="#804613"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.5" fx="0.24510043859481812" r="0.523" gradientTransform="matrix(-0.999, 0.05, 0.045, 0.904, 0.977, 0.023)" xlink:href="#radial-gradient"/>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f9c84e"/>
+      <stop offset="0.005" stop-color="#f9c84e"/>
+      <stop offset="0.028" stop-color="#f0bd41"/>
+      <stop offset="0.086" stop-color="#dda626"/>
+      <stop offset="0.138" stop-color="#d29816"/>
+      <stop offset="0.178" stop-color="#ce9411"/>
+      <stop offset="0.38" stop-color="#aa7012"/>
+      <stop offset="0.686" stop-color="#7c4213"/>
+      <stop offset="1" stop-color="#9d6312"/>
+    </linearGradient>
+  </defs>
+  <path id="Trazado_635033" data-name="Trazado 635033" d="M779.344,340.421l67.44,34.666,67.44-34.666V176.673H779.344Z" transform="translate(-753.899 -167.753)" fill="#426ff0"/>
+  <g id="Grupo_949984" data-name="Grupo 949984" transform="translate(35.194 12.17)">
+    <path id="Trazado_635034" data-name="Trazado 635034" d="M809.7,341.341V186.793H925.083V341.341l-57.69,29.653ZM922.916,188.959H811.868V340.019l55.525,28.54,55.523-28.54Z" transform="translate(-809.702 -186.793)" fill="#0822e1"/>
+  </g>
+  <rect id="Rectángulo_42252" data-name="Rectángulo 42252" width="134.727" height="24.273" transform="translate(25.623 8.92)" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+  <ellipse id="Elipse_5442" data-name="Elipse 5442" cx="10.7" cy="10.7" rx="10.7" ry="10.7" transform="translate(164.368)" fill="url(#radial-gradient)"/>
+  <ellipse id="Elipse_5443" data-name="Elipse 5443" cx="10.7" cy="10.7" rx="10.7" ry="10.7" transform="translate(0)" fill="url(#radial-gradient-2)"/>
+  <rect id="Rectángulo_42253" data-name="Rectángulo 42253" width="152.339" height="19.597" rx="2.101" transform="translate(17.781 0.902)" fill="url(#linear-gradient-2)"/>
+</svg>
