@@ -96,7 +96,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Características ',
+            titulo: 'Características',
             hash: 't_2_3',
           },
           {
